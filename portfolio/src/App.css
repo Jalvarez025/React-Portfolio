@@ -1,38 +1,226 @@
-.App {
-  text-align: center;
+*{
+  font-family: Arial;
+  box-sizing: border-box;
+  width: fit-content;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header{
+  display: inline-flex;
+  height:75px;
+  justify-content: space-between;
+  position:relative;
+  width: 100%;
+  min-width: 720px;
+  align-items: baseline;
+  background-color: rgb(54, 54, 54);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.name{
+  background-color: rgb(98, 176, 202);
+  font-size: 35px;
+  color:rgb(54, 54, 54);
+  padding: 0px 10px 0px 60px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+ul{
+  margin-right: 55px;
+}
+
+li{
+  display: inline;
+}
+
+nav a{
+  color:rgb(98, 176, 202);
+  font-size: 19px;
+}
+
+.box{
+  display: flexbox;
+  width:100%;
+  padding-right: 15px;
+  columns: 2;
+  flex-wrap: nowrap;
+}
+
+.box0{
+  display: flexbox;
+  width:100%;
+  padding-right: 15px;
+}
+
+/* .hero-image {
+  background-image: url("portfolio_banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto;
+  position: relative;
+  min-width: 100%;
+  min-height: 300px;
+} */
+
+.hero-text {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+  background-color: rgb(98, 176, 202);
+  color:rgb(54, 54, 54);
+  padding: 0px 10px 0px 10px;
+  height:40px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.column1{
+
+  font-size: 35px;
+  text-align: right;
+  background-color: rgb(98, 176, 202);
+  color:rgb(54, 54, 54);
+  padding: 20px 10px 50px 10px;
+  flex-flow: column;
+  border-right: 5px solid white;
+  top:10%;
+  bottom: 0;
+  min-width: 25%;
+  display: flexbox;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.column2{
+  background-color: rgb(54, 54, 54);
+  color:rgb(98, 176, 202);
+  padding: 20px 10px 50px 35px;
+  min-width:75%;
+  display: flexbox;
+}
+
+/* .image1{
+  background-image: url("portfolio_pic3.jpg");
+  background-position: center;
+  background-size:cover;
+  position: relative;
+  height: 300px;
+  min-width: 100%;
+  min-height: 300px;
+  border: 4px solid rgb(98, 176, 202);
+} */
+
+.projectText1{
+  position: relative;
+  background-color: rgb(98, 176, 202);
+  color:rgb(54, 54, 54);
+  padding: 0px 10px 0px 10px;
+  height:40px;
+  align-items: center;
+  display: inline-flex;
+  bottom: 70px;
+}
+
+/* .image2{
+  background-image: url("portfolio_pic1.jpg");
+  background-position: center;
+  background-size:cover;
+  position: relative;
+  height: 300px;
+  min-width: 100%;
+  border: 4px solid rgb(98, 176, 202);
+} */
+
+.projectText2{
+  position: relative;
+  background-color: rgb(98, 176, 202);
+  color:rgb(54, 54, 54);
+  padding: 0px 10px 0px 10px;
+  height:40px;
+  align-items: center;
+  display: inline-flex;
+  bottom: 70px;
+}
+
+/* .image3{
+  background-image: url("portfolio_pic2.jpg");
+  background-position: center;
+  background-size:cover;
+  position: relative;
+  height: 300px;
+  min-width: 100%;
+  border: 4px solid rgb(98, 176, 202);
+} */
+
+.projectText3{
+  position: relative;
+  background-color: rgb(98, 176, 202);
+  color:rgb(54, 54, 54);
+  padding: 0px 10px 0px 10px;
+  height:40px;
+  align-items: center;
+  display: inline-flex;
+  bottom: 70px;
+}
+
+/* .image4{
+  background-image: url("portfolio_pic4.png");
+  background-position: center;
+  background-size:cover;
+  position: relative;
+  height: 300px;
+  min-width: 100%;
+  border: 4px solid rgb(98, 176, 202);
+} */
+
+.projectText4{
+  position: relative;
+  background-color: rgb(98, 176, 202);
+  color:rgb(54, 54, 54);
+  padding: 0px 10px 0px 10px;
+  height:40px;
+  align-items: center;
+  display: inline-flex;
+  bottom: 70px;
+}
+
+/* .image5{
+  background-image: url("portfolio_pic5.png");
+  background-position: center;
+  background-size:cover;
+  position: relative;
+  height: 300px;
+  min-width: 100%;
+  border: 4px solid rgb(98, 176, 202);
+} */
+
+.projectText5{
+  position: relative;
+  background-color: rgb(98, 176, 202);
+  color:rgb(54, 54, 54);
+  padding: 0px 10px 0px 10px;
+  height:40px;
+  align-items: center;
+  display: inline-flex;
+  bottom: 70px;
+}
+
+.row1 {
+  display: flex;
+  column-count: 2;
+  width:100%;
+}
+
+.row2 {
+  display: flex;
+  width: 100%;
+}
+
+.row3 {
+  display: flex;
+  column-count: 2;
+  width:100%;
+  height: min-content;
+}
+
+.contactMenu{
+  display: inline;
+  position: relative;
+  justify-content: space-between;
+  text-decoration: underline;
 }
