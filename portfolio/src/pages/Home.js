@@ -25,7 +25,7 @@ function Home() {
         <div>
             <Container className={classes.root}>
                 <img className={classes.img}
-                    src={require("../assets/jesse.png")}
+                    src={require("../assets/images/jesse.png")}
                     alt="bitmoji version of me"
                 ></img>
                 <Typewriter

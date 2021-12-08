@@ -68,7 +68,7 @@ export default function AboutCard() {
                     </Avatar>
                 }
                 action={
-                    <IconButton aria-label="settings" target="_blank" href={require("../assets/Jesse_Resume2021.pdf")}>
+                    <IconButton aria-label="settings" target="_blank" href={require("../assets/images/Jesse_Resume2021.pdf")}>
                         <GetAppIcon />
                         <DescriptionIcon />
                     </IconButton>
@@ -78,7 +78,7 @@ export default function AboutCard() {
             />
             <CardMedia
                 className={classes.media}
-                image={require("../assets/contact.png")}
+                image={require("../assets/images/contact.png")}
                 title="Jesse"
             />
             <CardContent>
