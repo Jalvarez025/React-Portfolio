@@ -1,7 +1,7 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
-import { makeStyles } from "@material-ui/core/styles";
-import Container from "@material-ui/core/Container";
+//import Typewriter from "typewriter-effect";
+// import { makeStyles } from "@material-ui/core/styles";
+// import Container from "@material-ui/core/Container";
 
 const useStyles = makeStyles({
     root: {

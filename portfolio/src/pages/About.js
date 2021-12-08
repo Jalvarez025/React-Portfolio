@@ -1,8 +1,8 @@
 import React from "react";
 import AboutCard from "../components/AboutCard";
-import { makeStyles } from "@material-ui/core/styles";
-import Container from "@material-ui/core/Container";
-import GridList from "@material-ui/core/GridList";
+// import { makeStyles } from "@material-ui/core/styles";
+// import Container from "@material-ui/core/Container";
+// import GridList from "@material-ui/core/GridList";
 
 
 const useStyles = makeStyles((theme) => ({

@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from "react";
 import MediaCard from "../components/Card"
-import { makeStyles } from "@material-ui/core/styles";
-import Container from "@material-ui/core/Container";
+//import { makeStyles } from "@material-ui/core/styles";
+//import Container from "@material-ui/core/Container";
 import Projects from "../projects.json";
-import GridList from "@material-ui/core/GridList";
+//import GridList from "@material-ui/core/GridList";
 
 
 const useStyles = makeStyles((theme) => ({
