@@ -1,27 +1,22 @@
-//import logo from './logo.svg';
-import './App.css';
-import React from 'react';
-//import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import NavTabs from "./components/NavTabs";
-import Footer from "./components/Footer";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
 
-function App() {
+export default function CenteredTabs() {
+  const [value, setValue] = React.useState(0);
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+
   return (
-    <Router>
-      <NavTabs />
-      
-      <Switch>
-        <Route exact path={["/", "/JesseAlvarez"]} component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/portfolio" component={Portfolio} />
-      </Switch>
-
-      <Footer />
-    </Router>
+    <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
+      <Tabs value={value} onChange={handleChange} centered>
+        <Tab label="Item One" />
+        <Tab label="Item Two" />
+        <Tab label="Item Three" />
+      </Tabs>
+    </Box>
   );
 }
-
-export default App;
