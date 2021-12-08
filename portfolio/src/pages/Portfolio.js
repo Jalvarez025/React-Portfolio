@@ -7,18 +7,18 @@ import GridList from "@material-ui/core/GridList";
 
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    display: "flex",
-    flexWrap: "wrap",
-    justifyContent: "space-around",
-    overflow: "hidden",
-    backgroundColor: "theme.palette.background.paper",
-  },
-  gridList: {
-    width: '100%',
-    height: 1000,
-    justifyContent: "center"
-  },
+    root: {
+        display: "flex",
+        flexWrap: "wrap",
+        justifyContent: "space-around",
+        overflow: "hidden",
+        backgroundColor: "theme.palette.background.paper",
+    },
+    gridList: {
+        width: '100%',
+        height: 1000,
+        justifyContent: "center"
+    },
 }));
 
 
@@ -29,34 +29,34 @@ function Portfolio() {
     useEffect(() => {
         getProjects();
     }, []);
-    
-    function getProjects(){
+
+    function getProjects() {
         setProjects(Projects);
     }
-    
+
     return (
-      <div>
-        <Container>
-          <h1 className="text-center">Recent Projects: </h1>
-          <h3 className="text-center">
-            (For more see my <a href="https://github.com/msplawn">Github</a>)
-          </h3>
-          <div className={classes.root}>
-            <GridList className={classes.gridList} cols={3}>
-              {Projects.map((project, i) => (
-                  <MediaCard
-                    key={i}
-                  image={project.image}
-                  title={project.title}
-                  description={project.description}
-                  repository={project.repository}
-                  liveLink={project.liveLink}
-                />
-              ))}
-            </GridList>
-          </div>
-        </Container>
-      </div>
+        <div>
+            <Container>
+                <h1 className="text-center">Recent Projects: </h1>
+                <h3 className="text-center">
+                    (For more see my <a href="https://github.com/Jalvarez025">Github</a>)
+                </h3>
+                <div className={classes.root}>
+                    <GridList className={classes.gridList} cols={3}>
+                        {Projects.map((project, i) => (
+                            <MediaCard
+                                key={i}
+                                image={project.image}
+                                title={project.title}
+                                description={project.description}
+                                repository={project.repository}
+                                liveLink={project.liveLink}
+                            />
+                        ))}
+                    </GridList>
+                </div>
+            </Container>
+        </div>
     );
 }
 
