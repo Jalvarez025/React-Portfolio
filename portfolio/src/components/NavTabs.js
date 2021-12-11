@@ -7,15 +7,16 @@ export default function CenteredTabs() {
     const [value, setValue] = React.useState(0);
 
     const handleChange = (event, newValue) => {
+        event.preventDefault(); 
         setValue(newValue);
     };
 
     return (
         <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
             <Tabs value={value} onChange={handleChange} centered>
-                <Tab label="Item One" />
-                <Tab label="Item Two" />
-                <Tab label="Item Three" />
+                <Tab label="About Me" />
+                <Tab label="Projects" />
+                <Tab label="Contact Me" />
             </Tabs>
         </Box>
     );

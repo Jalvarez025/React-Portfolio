@@ -1,11 +1,11 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom';
 import { StyledEngineProvider } from '@mui/material/styles';
-import NavTabs from './components/NavTabs';
+import App from './App';
 
 ReactDOM.render(
   <StyledEngineProvider injectFirst>
-    <NavTabs />
+    <App />
   </StyledEngineProvider>,
   document.querySelector("#root")
 );

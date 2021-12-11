@@ -1,22 +1,35 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
+// import * as React from 'react';
+// import Card from '@mui/material/Card';
+// import NavTabs from './components/NavTabs'
+// import styles from './index.css'; 
 
-export default function CenteredTabs() {
-  const [value, setValue] = React.useState(0);
+// export default function CenteredTabs() {
+//   const [value, setValue] = React.useState(0);
 
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
+//   const handleChange = (event, newValue) => {
+//     setValue(newValue);
+//   };
 
+//   return (
+
+//     <div className={styles.bigblue}>
+//     <NavTabs />
+//     <Card />
+//     </div>
+
+
+//   );
+// }
+
+import './App.css';
+import PortfolioContainer from './components/PortfolioContainer';
+//import PortfoiloContainer from './components/PortfolioContainer';
+
+export default function App() {
   return (
-    <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
-      <Tabs value={value} onChange={handleChange} centered>
-        <Tab label="Item One" />
-        <Tab label="Item Two" />
-        <Tab label="Item Three" />
-      </Tabs>
-    </Box>
+    <div className="portfolio-app">
+      <PortfolioContainer />
+    </div>
   );
 }
+
