@@ -1,49 +1,38 @@
-// import * as React from 'react';
-// import Card from '@mui/material/Card';
-// import NavTabs from './components/NavTabs'
-// import styles from './index.css'; 
+import React, { useState } from "react";
+import Header from "./components/Header";
+import Nav from "./components/Nav";
+import Page from "./components/Page";
+import Footer from "./components/Footer";
 
-// export default function CenteredTabs() {
-//   const [value, setValue] = React.useState(0);
+function App() {
+  const [pages] = useState([
+    {
+      name: "about me"
+    },
+    { name: "portfolio" },
+    { name: "contact" },
+    {
+      name: "resume"
+    }
+  ]);
 
-//   const handleChange = (event, newValue) => {
-//     setValue(newValue);
-//   };
+  const [currentPage, setCurrentPage] = useState(pages[0]);
 
-//   return (
-
-//     <div className={styles.bigblue}>
-//     <NavTabs />
-//     <Card />
-//     </div>
-
-
-//   );
-// }
-
-import './App.css';
-import * as React from "react";
-//import { Routes, Route, Link } from "react-router-dom";
-//import * as React from "react";
-//import { Routes, Route, Link } from "react-router-dom";
-import PortfolioContainer from './components/PortfolioContainer';
-import Projects from './pages/Projects';
-import AboutMe from './pages/AboutMe';
-//import Card from './Card'
-import ContactMe from './pages/ContactMe';
-//import PortfoiloContainer from './components/PortfolioContainer';
-
-export default function App() {
-    return (
-        <div className="App">
-            <PortfolioContainer />
-            <Routes>
-                <Route path="/" element={<AboutMe />} />
-                <Route path="projects" element={<Projects />} />
-                <Route path="contact" element={<ContactMe />} />
-            </Routes>
-        </div>
-
-    );
+  return (
+    <div>
+      <Header>
+        <Nav
+          pages={pages}
+          setCurrentPage={setCurrentPage}
+          currentPage={currentPage}
+        ></Nav>
+      </Header>
+      <main>
+        <Page currentPage={currentPage}></Page>
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
+export default App;
