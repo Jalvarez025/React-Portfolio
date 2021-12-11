@@ -22,14 +22,28 @@
 // }
 
 import './App.css';
+import * as React from "react";
+//import { Routes, Route, Link } from "react-router-dom";
+//import * as React from "react";
+//import { Routes, Route, Link } from "react-router-dom";
 import PortfolioContainer from './components/PortfolioContainer';
+import Projects from './pages/Projects';
+import AboutMe from './pages/AboutMe';
+//import Card from './Card'
+import ContactMe from './pages/ContactMe';
 //import PortfoiloContainer from './components/PortfolioContainer';
 
 export default function App() {
-  return (
-    <div className="portfolio-app">
-      <PortfolioContainer />
-    </div>
-  );
+    return (
+        <div className="App">
+            <PortfolioContainer />
+            <Routes>
+                <Route path="/" element={<AboutMe />} />
+                <Route path="projects" element={<Projects />} />
+                <Route path="contact" element={<ContactMe />} />
+            </Routes>
+        </div>
+
+    );
 }
 
