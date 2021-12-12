@@ -6,7 +6,7 @@ function Portfolio() {
   // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
     {
-      name: 'project1',
+      name: 'movie',
       description: 'Movie Review API',
       link: "https://wtriii.github.io/Project-1-Movie-Comparison-Site/",
       repo: "https://github.com/WTRIII/Project-1-Movie-Comparison-Site"
