@@ -6,34 +6,34 @@ function Portfolio() {
   // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
     {
-      name: 'surf-report',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'project1',
+      description: 'Movie Review API',
+      link: "https://wtriii.github.io/Project-1-Movie-Comparison-Site/",
+      repo: "https://github.com/WTRIII/Project-1-Movie-Comparison-Site"
     },
     {
-      name: 'pastel-puzzels',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'doctor',
+      description: 'Fullstack',
+      link: "https://project2-group8.herokuapp.com/login",
+      repo: "https://github.com/samkilpatrick903/Full-Stack-Appointment-App"
     },
     {
-      name: 'run-buddy',
-      description: 'HTML/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'pho',
+      description: 'MERN',
+      link: "https://possystem-wee.herokuapp.com/",
+      repo: "https://github.com/KalvinN361/POS-SYSTEM_ATTEMPT"
     },
     {
-      name: 'led-wall',
-      description: 'Node/IoT',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'fit',
+      description: 'Routes',
+      link: "https://jalvarez-fitness-tracker.herokuapp.com/",
+      repo: "https://github.com/Jalvarez025/Homework-18-Fitness-Tracker"
     },
     {
-      name: 'calculator',
-      description: 'React/JavaScript/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'note-taker',
+      description: 'Routes',
+      link: "https://note-taker-jesse.herokuapp.com/",
+      repo: "https://github.com/Jalvarez025/Homework-11"
     },
   ]);
 
