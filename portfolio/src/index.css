@@ -175,13 +175,7 @@ header h1 {
 }
 
 header img {
-  z-index: 0;
   position: absolute;
-  top: 0;
-  left: 0;
-  height: auto;
-  filter: sepia(1) opacity(60%);
-  opacity: 0.5;
 }
 
 nav {
