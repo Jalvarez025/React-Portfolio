@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.9324c6fd.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.2a6b7317.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.2a6b7317.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.ee778346.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.ee778346.js.map",
+    "static/js/2.af5ea0b4.chunk.js": "/React-Portfolio/static/js/2.af5ea0b4.chunk.js",
+    "static/js/2.af5ea0b4.chunk.js.map": "/React-Portfolio/static/js/2.af5ea0b4.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/main.9324c6fd.chunk.css.map": "/React-Portfolio/static/css/main.9324c6fd.chunk.css.map",
+    "static/js/2.af5ea0b4.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.af5ea0b4.chunk.js.LICENSE.txt",
+    "static/media/Bluebonnet-Banner.db51ee8b.jpg": "/React-Portfolio/static/media/Bluebonnet-Banner.db51ee8b.jpg",
+    "static/media/doctor.jpg": "/React-Portfolio/static/media/doctor.0ab25005.jpg",
+    "static/media/fit.jpg": "/React-Portfolio/static/media/fit.bcd4b869.jpg",
+    "static/media/movie.jpg": "/React-Portfolio/static/media/movie.f3e336d3.jpg",
+    "static/media/note-taker.jpg": "/React-Portfolio/static/media/note-taker.3ed3f10d.jpg",
+    "static/media/pho.jpg": "/React-Portfolio/static/media/pho.0dc033fb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee778346.js",
+    "static/js/2.af5ea0b4.chunk.js",
+    "static/css/main.9324c6fd.chunk.css",
+    "static/js/main.2a6b7317.chunk.js"
+  ]
+}
