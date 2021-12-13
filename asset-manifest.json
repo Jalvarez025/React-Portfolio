@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9324c6fd.chunk.css",
+    "main.js": "/static/js/main.826cf8ea.chunk.js",
+    "main.js.map": "/static/js/main.826cf8ea.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.26096b02.js",
+    "runtime-main.js.map": "/static/js/runtime-main.26096b02.js.map",
+    "static/js/2.af5ea0b4.chunk.js": "/static/js/2.af5ea0b4.chunk.js",
+    "static/js/2.af5ea0b4.chunk.js.map": "/static/js/2.af5ea0b4.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.9324c6fd.chunk.css.map": "/static/css/main.9324c6fd.chunk.css.map",
+    "static/js/2.af5ea0b4.chunk.js.LICENSE.txt": "/static/js/2.af5ea0b4.chunk.js.LICENSE.txt",
+    "static/media/Bluebonnet-Banner.db51ee8b.jpg": "/static/media/Bluebonnet-Banner.db51ee8b.jpg",
+    "static/media/doctor.jpg": "/static/media/doctor.0ab25005.jpg",
+    "static/media/fit.jpg": "/static/media/fit.bcd4b869.jpg",
+    "static/media/movie.jpg": "/static/media/movie.f3e336d3.jpg",
+    "static/media/note-taker.jpg": "/static/media/note-taker.3ed3f10d.jpg",
+    "static/media/pho.jpg": "/static/media/pho.0dc033fb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26096b02.js",
+    "static/js/2.af5ea0b4.chunk.js",
+    "static/css/main.9324c6fd.chunk.css",
+    "static/js/main.826cf8ea.chunk.js"
+  ]
+}
