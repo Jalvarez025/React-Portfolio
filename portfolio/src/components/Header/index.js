@@ -1,5 +1,5 @@
 import React from 'react';
-import coverImage from '../../assets/cover/portfolio_banner.png';
+import coverImage from '../../assets/cover/Bluebonnet-Banner.jpg';
 
 function Header(props) {
 
