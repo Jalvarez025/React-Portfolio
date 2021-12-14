@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Project from "../Project";
+import movie from "../assets/projects/movie.jpg"
 
 function Portfolio() {
 
@@ -9,7 +10,8 @@ function Portfolio() {
       name: 'movie',
       description: 'Movie Review API',
       link: "https://wtriii.github.io/Project-1-Movie-Comparison-Site/",
-      repo: "https://github.com/WTRIII/Project-1-Movie-Comparison-Site"
+      repo: "https://github.com/WTRIII/Project-1-Movie-Comparison-Site",
+      img: movie
     },
     {
       name: 'doctor',
